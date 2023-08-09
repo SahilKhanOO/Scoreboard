@@ -1,5 +1,5 @@
 let homeEl = document.getElementById("home-el")
-let guestEl = document.getElementById("guest-el")
+let awayEl = document.getElementById("guest-el")
 let homeScore = 0
 let guestScore = 0
 function oneHome() {
@@ -15,15 +15,15 @@ function threeHome() {
     homeEl.textContent = homeScore
 }
 
-function oneGuest() {
-    guestScore += 1
-    guestEl.textContent = guestScore
+function oneAway() {
+    awayScore += 1
+    awayEl.textContent = awayScore
 }
-function twoGuest() {
-    guestScore += 2
-    guestEl.textContent = guestScore
+function twoAway() {
+    awayScore += 2
+    awayEl.textContent = awayScore
 }
-function threeGuest() {
-    guestScore += 3
-    guestEl.textContent = guestScore
+function threeAway() {
+    awayScore += 3
+    awayEl.textContent = awayScore
 }
